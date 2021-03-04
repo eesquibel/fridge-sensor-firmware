@@ -1,0 +1,8 @@
+menu "Fridge Sensor Configuration"
+
+    config SENSOR_URL
+        string "Sensor POST URL"
+        default ""
+        help
+            Set the POST URL to send sensor data
+endmenu
